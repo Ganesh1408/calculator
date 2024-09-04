@@ -30,6 +30,12 @@
     box-shadow:10px 20px 30px black ;
     
 }
+@media screen and (max-width:600px){
+    .con-calculator{
+        height:400px;
+        width:300px;
+    }
+}
 .input-field-container{
     height:100px;
     width:360px;
@@ -41,6 +47,14 @@
     direction: right;
     text-align: right;
     unicode-bidi: bidi-override;
+    font-size:22px;
+    font-weight:900;
+}
+@media screen and (max-width:600px){
+    .input-field-container{
+        height:80px;
+        width:230px;
+    }
 }
 ::placeholder{
     font-size:30px;
@@ -55,9 +69,7 @@
     justify-content:space-around;
     align-items:center;
     flex-wrap: wrap;
-    margin:30px 10px 30px 10px;
-
-    
+    margin:30px 10px 30px 10px 
 }
 
 button{
@@ -73,6 +85,15 @@ button{
     font-weight:700;
     font-size:15px;
     cursor: pointer;
+}
+
+@media screen and (max-width:600px){
+    button{
+        height:30px;
+        width:30px;
+        border-radius:15px;
+        font-size:10px;
+    }
 }
 .btn-last{
     background-color: orange;
